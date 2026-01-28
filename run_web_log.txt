@@ -1,0 +1,17 @@
+C:\Users\maur2\Desktop\alexis\imprimrConNet\NetPrintUrl.csproj : warning NU1701: El paquete "PdfiumViewer 2.13.0" se restaur├│ con ".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1" en lugar de la plataforma de destino del proyecto "net8.0-windows7.0". Puede que el paquete no sea totalmente compatible con el proyecto.
+C:\Users\maur2\Desktop\alexis\imprimrConNet\NetPrintUrl.csproj : warning NU1701: El paquete "PdfiumViewer 2.13.0" se restaur├│ con ".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1" en lugar de la plataforma de destino del proyecto "net8.0-windows7.0". Puede que el paquete no sea totalmente compatible con el proyecto.
+You must install or update .NET to run this application.
+
+App: C:\Users\maur2\Desktop\alexis\imprimrConNet\bin\Debug\net8.0-windows\NetPrintUrl.exe
+Architecture: x64
+Framework: 'Microsoft.AspNetCore.App', version '8.0.0' (x64)
+.NET location: C:\Program Files\dotnet
+
+The following frameworks were found:
+  10.0.2 at [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+
+Learn more:
+https://aka.ms/dotnet/app-launch-failed
+
+To install missing framework, download:
+https://aka.ms/dotnet-core-applaunch?framework=Microsoft.AspNetCore.App&framework_version=8.0.0&arch=x64&rid=win-x64&os=win10

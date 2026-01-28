@@ -1,0 +1,9 @@
+C:\Users\maur2\Desktop\alexis\imprimrConNet\NetPrintUrl.csproj : warning NU1701: El paquete "PdfiumViewer 2.13.0" se restaur├│ con ".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1" en lugar de la plataforma de destino del proyecto "net8.0". Puede que el paquete no sea totalmente compatible con el proyecto.
+C:\Users\maur2\Desktop\alexis\imprimrConNet\NetPrintUrl.csproj : warning NU1701: El paquete "PdfiumViewer 2.13.0" se restaur├│ con ".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1" en lugar de la plataforma de destino del proyecto "net8.0". Puede que el paquete no sea totalmente compatible con el proyecto.
+Processing URL: https://www.google.com
+Checking browser...
+Generating PDF...
+PDF saved to: C:\Users\maur2\Desktop\alexis\imprimrConNet\output.pdf
+Printing PDF...
+Error printing: Could not load file or assembly 'System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'. El sistema no puede encontrar el archivo especificado.
+Done.

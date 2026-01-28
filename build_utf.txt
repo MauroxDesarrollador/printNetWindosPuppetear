@@ -1,0 +1,13 @@
+  Determinando los proyectos que se van a restaurar...
+C:\Users\maur2\Desktop\alexis\imprimrConNet\NetPrintUrl.csproj : warning NU1701: El paquete "PdfiumViewer 2.13.0" se restaur├│ con ".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1" en lugar de la plataforma de destino del proyecto "net8.0". Puede que el paquete no sea totalmente compatible con el proyecto.
+  Todos los proyectos est├ín actualizados para la restauraci├│n.
+C:\Program Files\dotnet\sdk\10.0.102\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.DefaultItems.targets(151,5): error NETSDK1136: La plataforma de destino debe establecerse en Windows (normalmente, se incluye "-windows" en la propiedad TargetFramework) cuando se use Windows┬áForms o WPF, o bien cuando se haga referencia a proyectos o paquetes que lo usen. [C:\Users\maur2\Desktop\alexis\imprimrConNet\NetPrintUrl.csproj]
+
+ERROR al compilar.
+
+C:\Users\maur2\Desktop\alexis\imprimrConNet\NetPrintUrl.csproj : warning NU1701: El paquete "PdfiumViewer 2.13.0" se restaur├│ con ".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1" en lugar de la plataforma de destino del proyecto "net8.0". Puede que el paquete no sea totalmente compatible con el proyecto.
+C:\Program Files\dotnet\sdk\10.0.102\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.DefaultItems.targets(151,5): error NETSDK1136: La plataforma de destino debe establecerse en Windows (normalmente, se incluye "-windows" en la propiedad TargetFramework) cuando se use Windows┬áForms o WPF, o bien cuando se haga referencia a proyectos o paquetes que lo usen. [C:\Users\maur2\Desktop\alexis\imprimrConNet\NetPrintUrl.csproj]
+    1 Advertencia(s)
+    1 Errores
+
+Tiempo transcurrido 00:00:00.94

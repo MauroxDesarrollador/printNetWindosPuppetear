@@ -210,25 +210,9 @@ void PrintPdf(string pdfPath)
 
         // CONFIGURAR MÁRGENES A CERO Y AJUSTAR POSICIÓN
         printDocument.DefaultPageSettings.Margins = new Margins(0, 0, 0, 0);
-        // Aseguramos también los márgenes en PrinterSettings (algunos drivers usan esa configuración)
-        try
-        {
-            printDocument.PrinterSettings.DefaultPageSettings.Margins = new Margins(0, 0, 0, 0);
-        }
-        catch { }
-
-        // Evitar que la impresora aplique de forma automática su margen físico
-        printDocument.OriginAtMargins = false;
-
-        // Añadir un pequeño desplazamiento hacia arriba para compensar el margen físico
-        // Ajusta `offsetY` si hace falta (valores negativos suben el contenido)
-        int offsetY = -20; // prueba inicial: -20 píxeles (~0.2cm), reducir en valor absoluto si aún hay margen
-        printDocument.PrintPage += (s, e) =>
-        {
-            try { e.Graphics.TranslateTransform(0, offsetY); } catch { }
-        };
-
-        // Intentar desactivar duplex si aplica
+        printDocument.OriginAtMargins = true;  // Cambiar a TRUE
+        
+        // Intentar desactivar el margen superior de la impresora
         if (printDocument.PrinterSettings.CanDuplex)
         {
             printDocument.PrinterSettings.Duplex = Duplex.Simplex;
